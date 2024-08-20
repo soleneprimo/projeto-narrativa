@@ -13,7 +13,7 @@ const perguntas =[
     ]
 },
 {
-    enunciado: "Você escolheu ficar em casa, mas a aguá começou à invadir a sua casa. Qual decisão você tomaria?"
+    enunciado: "Você escolheu ficar em casa, mas a aguá começou à invadir a sua casa. Qual decisão você tomaria?",
     alternativa:[
         "Subir no telhado e esperar ajuda",
         "Sair nadando"
@@ -47,7 +47,7 @@ let perguntaAtual;
 
 function mostraPergunta(){
     perguntaAtual = perguntas[atual];
-    caixaPerguntas. textContent = perguntaAtual.enunciado
+    caixaPerguntas.textContent = perguntaAtual.enunciado
 }
 
 mostraPergunta();
